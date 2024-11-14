@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //datatypes
+        let a = "25";
+        let b = "10";
+        console.log(a+b);//2510
+        console.log(a-b);//15
+        console.log(a*b);//150
+        console.log(a/b);//1.5
+        console.log(a%b);//5
+          
+       let c = 15;
+       let d = "ab";
+       console.log(c+d);//15ab
+       console.log(c-d);//NAN(not a number)where d is string so itt results as NAN
+       console.log(c*d);//NAN(not a number)where d is string so itt results as NAN
+       console.log(c/d);//NAN
+       let e = 40;
+       let f =20;
+       console.log(e+f);//60
+       console.log(e-f);//20
+       console.log(e*f);//800
+       console.log(e/f);//2
+       let g = undefined;
+       let h = 6;
+       console.log(g+h);//NAN
+       console.log(g-h);//NAN
+       console.log(g*h);//NAN
+       let i = null;
+       let j = 20;
+       console.log(i+j);//20
+       console.log(i-j);//-20
+       console.log(i*j);//0
+       let k = null;
+       let l = "b";
+       console.log(k+l);//nullb
+       console.log(k-l);//NAN
+       let m = undefined;
+       let n = "b";
+       console.log(m+n);//undefinedb
+       console.log(m-n);//NAN
+      
+       let o = 7;
+       let p = "ab";
+       let q = null;
+       let r = undefined;
+       console.log(typeof o);//number
+       console.log(typeof p);//string
+       console.log(typeof q);//object
+       console.log(typeof r);//undefined
+       //object
+       const list={
+        name:"priya",
+        age:22,
+        degree:{
+            MCA:"DVRDrHs",
+            Degree:"SNDC",
+            inter:"SreeNidhi junior college",
+            10:"ZPHS"
+        }
+       }
+        console.log(list.name);//priya
+        console.log(list);
+        console.log(list.rollnumber);//undefined
+        console.log(list.degree[10]);//ZPHS
+        console.log(list.degree.inter);//SreeNidhi junior college
+    </script>
+</body>
+</html>
